@@ -1,0 +1,202 @@
+[
+  {
+    "id": 0,
+    "question": "Как настроить IP-адрес на устройстве ViPNet Coordinator HW 5?",
+    "keyword": "IP-адрес",
+    "ground_truth_chunk_id": 2440,
+    "ground_truth_source": "04 ViPNet Coordinator HW 5. Справочник.pdf",
+    "ground_truth_page": 260,
+    "ground_truth_context": "нтаксис inet snmp cluster node <IP-адрес> community Параметры и ключевые слова <IP-адрес> — IP-адрес интерфейса синхронизации узла кластера. Режимы командного интерпретатора Режим настройки. Особенности использования  При выполнении команды требуется ввести community string.",
+    "ground_truth_answer": ""
+  },
+  {
+    "id": 1,
+    "question": "Как добавить статический маршрут в ViPNet Coordinator HW 5?",
+    "keyword": "маршрут",
+    "ground_truth_chunk_id": 624,
+    "ground_truth_source": "02 ViPNet Coordinator HW 5. Настройка в CLI.pdf",
+    "ground_truth_page": 200,
+    "ground_truth_context": ". o Маршруты DHCP и PPP — по признаку одинаковых метрик маршрутов. o Маршруты OSPF и BGP — маршрутизаторами OSPF и BGP. При просмотре такие маршруты отображаются в виде одного маршрута с несколькими шлюзами: 10.100.2.0/24 [30/23] (weight 1) via 10.1.30.202, eth1 (weight 1) via 10.1.31.201, eth2 Внимание! Если хотя бы один из шлюзов объединённого маршрута multi-hop route выйдет из строя, работоспособность маршрута не гарантируется.",
+    "ground_truth_answer": ""
+  },
+  {
+    "id": 2,
+    "question": "Как изменить пароль администратора в ViPNet Coordinator HW 5?",
+    "keyword": "пароль",
+    "ground_truth_chunk_id": 122,
+    "ground_truth_source": "01 ViPNet Coordinator HW 5. Подготовка к работе.pdf",
+    "ground_truth_page": 81,
+    "ground_truth_context": "Инициализация в консольном режиме 1 Включите ViPNet Coordinator HW (виртуальную машину ViPNet Coordinator VA). 2 В строке приглашения введите имя пользователя user и пароль user. 3 Выберите консольный режим работы мастера установки дистрибутива ключей — введите 1. 4 Примите условия соглашения. Если текст отображается некорректно, проверьте кодировку в параметрах подключения к ViPNet Coordinator HW. 5 Начните установку — в строке Now you need to install keys or restore configuration from backup. Do you want to begin? [Yes/No] введите y и нажмите Enter. 6 Введите номер континента или UTC из списка и нажмите Enter. 7 Введите номер страны из списка и нажмите Enter. Список содержит страны, расположенные на выбранном континенте. 8 Введите номер часового пояса из списка и нажмите Enter. Список содержит часовые пояса выбранной страны. Если в стране только один часовой пояс, то он будет выбран автоматически. 9 Подтвердите установку часового пояса — в строке Is the above information OK? введите",
+    "ground_truth_answer": ""
+  },
+  {
+    "id": 3,
+    "question": "Как настроить VPN-туннель в ViPNet Coordinator HW 5?",
+    "keyword": "VPN",
+    "ground_truth_chunk_id": 2643,
+    "ground_truth_source": "04 ViPNet Coordinator HW 5. Справочник.pdf",
+    "ground_truth_page": 387,
+    "ground_truth_context": "я hostname> machine show uptime 18:04:29 up 44 min, 1 user, load average: 2.19, 2.18, 2.06 machine update-queue Просмотреть очередь отложенных обновлений компонентов и настроек ViPNet Coordinator HW, отправленных из ViPNet Prime. Синтаксис machine update-queue Режимы командного интерпретатора  Режим просмотра.  Режим настройки. Особенности использования По команде отображается текущее состояние очереди отложенных обновлений:  Update type — тип обновления: o Software — ПО ViPNet Coordinator HW. o License — лицензия. o Firewall — политики безопасности. o VPN node info — справочники и ключи. o DPI — подсистема DPI. o Services — настройки прикладных служб.  Sent — время отправки обновления из ViPNet Prime.",
+    "ground_truth_answer": ""
+  },
+  {
+    "id": 4,
+    "question": "Как просмотреть состояние сетевых интерфейсов?",
+    "keyword": "интерфейс",
+    "ground_truth_chunk_id": 936,
+    "ground_truth_source": "02 ViPNet Coordinator HW 5. Настройка в CLI.pdf",
+    "ground_truth_page": 350,
+    "ground_truth_context": "o C — шифрованный пакет; o B — широковещательный пакет; o D — заблокированный пакет; o T — транзитный пакет; o R — пакет, который будет обработан правилами NAT открытой сети; o N — пакет, который был обработан правилами NAT открытой сети;  Prot — протокол, по которому был передан пакет;  Source IP — IP-адрес отправителя пакета;  Port — локальный порт для TCPи UDP-пакетов или тип для ICMP-пакетов;  Destination IP — IP-адрес получателя пакета;  Port — порт удаленного компьютера для TCPи UDP-пакетов или код для ICMP-пакетов. Рисунок 67. Просмотр записей из журнала IP-пакетов 1 Для просмотра краткой информации о пакете выберите его в списке. В окне под списком записей отобразятся: o тип события, которому соответствует IP-пакет (см. Типы событий журнала IP-пакетов); o Interface — интерфейс, на котором был получен IP-пакет; o Eth. proto — шестнадцатеричный идентификатор протокола Ethernet; o Packets Size — размер пакетов, соответствующих данному типу события; Примечание. Для зашифрованн",
+    "ground_truth_answer": ""
+  },
+  {
+    "id": 5,
+    "question": "Как обновить программное обеспечение ViPNet Coordinator HW 5?",
+    "keyword": "обновление",
+    "ground_truth_chunk_id": 758,
+    "ground_truth_source": "02 ViPNet Coordinator HW 5. Настройка в CLI.pdf",
+    "ground_truth_page": 259,
+    "ground_truth_context": "Восстановление базы правил IPS При возникновении неполадок при обновлении базы правил IPS вы можете восстановить базу правил до версии, поставляемой в составе дистрибутива ViPNet Coordinator HW. Для восстановления базы правил выполните команду: hostname# service ips rule restore-default После выполнения команды ранее сделанные настройки правил iPS и обновления базы правил IPS изменятся:  Настройки обновления базы правил с сервера (адрес сервера обновлений, имя и пароль пользователя, расписание) сохранятся.  Автоматическое обновление базы правил IPS с сервера будет выключено.  Настройки правил IPS (действие правила, комментарии и параметры правил) будут установлены в состояние по умолчанию.",
+    "ground_truth_answer": ""
+  },
+  {
+    "id": 6,
+    "question": "Как активировать лицензию ViPNet Coordinator HW 5?",
+    "keyword": "лицензия",
+    "ground_truth_chunk_id": 797,
+    "ground_truth_source": "02 ViPNet Coordinator HW 5. Настройка в CLI.pdf",
+    "ground_truth_page": 284,
+    "ground_truth_context": "Просмотр лицензии Лицензия определяет функциональные характеристики ViPNet Coordinator HW. Чтобы просмотреть сведения об установленных объектах лицензирования: hostname> license License object Version Status Expiration date --------------------------------------Coordinator VA1000 5.99 active 2023-05-13 03:00:00 VPN 5.99 active 2023-05-13 03:00:00 DPI 5.99 active 2023-05-13 03:00:00 DPI update 5.99 active 2023-05-13 03:00:00 IPS 5.99 active 2023-05-13 03:00:00 IPS update 5.99 active 2023-05-13 03:00:00 Failover 5.99 active 2023-05-13 03:00:00 По команде отображаются:  Тип объекта лицензирования: o Основной объект в соответствии с исполнением ViPNet Coordinator HW, например Coordinator VA1000. o VPN — VPN. o DPI — DPI. o DPI Update — обновление DPI. o IPS — предотвращения вторжений IPS. o IPS Update — обновление базы правил IPS. o Failover — система защиты от сбоев в режиме кластера.  Максимальная версия ПО ViPNet Coordinator HW, поддерживаемая лицензией.  Статус объекта лицензировани",
+    "ground_truth_answer": ""
+  },
+  {
+    "id": 7,
+    "question": "Как просмотреть журнал событий ViPNet Coordinator HW 5?",
+    "keyword": "журнал",
+    "ground_truth_chunk_id": 938,
+    "ground_truth_source": "02 ViPNet Coordinator HW 5. Настройка в CLI.pdf",
+    "ground_truth_page": 351,
+    "ground_truth_context": "o Total Out — суммарный размер всех исходящих пакетов, соответствующих выбранному типу события; Примечание. Единицы измерения суммарного размера пакетов: B — байты, KB — килобайты, MB — мегабайты. Символ * в поле Total In или Total Out пакета означает, что этот пакет не учтен в общем объеме входящего или исходящего трафика; N/A — отсутствие информации о размере пакетов, соответствующих выбранному типу события. o App proto — тип прикладного протокола (см. Поддерживаемые прикладные протоколы); o Application — тип приложения (см. Поддерживаемые приложения); o Network user — пользователь сети (см. Пользователь). 2 Для просмотра подробной информации о пакете выберите его в списке и нажмите Enter. В окне Record details отобразятся: o Events — номер и тип событий, объединенных в одну запись журнала (см. Типы событий журнала IP-пакетов); o Interval Begin, End — начало и конец интервала времени, в течение которого несколько событий были объединены в одну запись журнала IP-пакетов; o Source — IP",
+    "ground_truth_answer": ""
+  },
+  {
+    "id": 8,
+    "question": "Как создать резервную копию конфигурации?",
+    "keyword": "резервная копия",
+    "ground_truth_chunk_id": 2621,
+    "ground_truth_source": "04 ViPNet Coordinator HW 5. Справочник.pdf",
+    "ground_truth_page": 374,
+    "ground_truth_context": "шестнадцатеричные значения их контрольных сумм.  После успешной проверки в исполнениях ViPNet Coordinator HW с двумя накопителями (все исполнения, кроме ViPNet Coordinator HW50) автоматически создается резервная копия конфигурационных и исполняемых файлов ПО, а также справочников.  При обнаружении ошибок контрольных сумм файлов предпринимается попытка их восстановления из резервной копии с последующей перезагрузкой ViPNet Coordinator HW. При этом, если восстановление поврежденного конфигурационного файла было неуспешным, то ViPNet Coordinator HW перезагружается в режим ограниченной функциональности (подробнее см. документ «Настройка с помощью командного интерпретатора», раздел «Контроль целостности файлов ПО»).  При обнаружении ошибки статистического контроля ПДСЧ ViPNet Coordinator HW перезагружается.  Команда устанавливает глобальную блокировку управляющих запросов; текущие сессии пользователей сохраняются, новые сессии не открываются. Пример использования hostname# machine self",
+    "ground_truth_answer": ""
+  },
+  {
+    "id": 9,
+    "question": "Как настроить DHCP-сервер на ViPNet Coordinator HW 5?",
+    "keyword": "DHCP",
+    "ground_truth_chunk_id": 572,
+    "ground_truth_source": "02 ViPNet Coordinator HW 5. Настройка в CLI.pdf",
+    "ground_truth_page": 177,
+    "ground_truth_context": "1.3 Запустите DHCP-relay: hostname# inet dhcp relay start 1.4 Включите автоматический запуск DHCP-relay: hostname# inet dhcp relay mode on 2 Настройте DHCP-сервер: 2.1 Задайте рабочий сетевой интерфейс DHCP-сервера: hostname# inet dhcp server add interface eth2 2.2 Задайте диапазон IP-адресов, выделяемых DHCP-сервером для защищенных узлов: hostname# inet dhcp server add range 172.16.0.10 172.16.0.20 interface eth2 2.3 Запустите DHCP-сервер: hostname# inet dhcp server start 2.4 Включите автоматический запуск DHCP-сервера: hostname# inet dhcp server mode on Использование запасного DHCP-сервера В этом примере рассматриваются две сети ViPNet, где HW-1 туннелирует два сторонних DHCP-сервера, один из которых является запасным, а HW-2 работает как агент DHCP-relay для клиентов своей сети:  Между координаторами настроена видимость по реальным IP-адресам.  В сети 1 туннелируемые DHCP-серверы, подключенные к HW-1, работают для защищенных узлов сети 1 (диапазон 192.168.0.10-20).  На HW-2 для D",
+    "ground_truth_answer": ""
+  },
+  {
+    "id": 10,
+    "question": "Как настроить правила брандмауэра?",
+    "keyword": "брандмауэр",
+    "ground_truth_chunk_id": 120,
+    "ground_truth_source": "01 ViPNet Coordinator HW 5. Подготовка к работе.pdf",
+    "ground_truth_page": 79,
+    "ground_truth_context": "ерите Клиент TFTP (TFTP Client) и Простые службы TCPIP (Simple TCPIP services). 3 Нажмите ОК. На время установки дистрибутива ключей: 1 Отключите компьютер от внешней сети. 2 Если на компьютере установлен ViPNet Client — отключите защиту ViPNet. Для этого в основном меню ViPNet Client выберите Файл > Конфигурации > Отключить защиту. 3 На компьютере с Windows: 3.1 Отключите службы безопасности и обновления:  Брандмауэр Windows (Windows Firewall).  Защитник Windows (Windows Defender).  Центр обновления Windows (Windows Update). 3.2 На панели управления Windows выберите Сеть и Интернет (Network and Internet) > Свойства браузера (Manage browser add-ons) > Безопасность (Security) > Интернет (Internet) > Другой (Custom level) и отключите защиту по всем параметрам. Нажмите ОК. Перед началом установки дистрибутива ключей: 1 Перенесите на компьютер файл дистрибутива ключей. 2 Установите на сетевом интерфейсе компьютера IP-адрес 169.254.241.5. 3 Подключите сетевой интерфейс компьютера:",
+    "ground_truth_answer": ""
+  },
+  {
+    "id": 11,
+    "question": "Как подключиться к устройству по SSH?",
+    "keyword": "SSH",
+    "ground_truth_chunk_id": 2034,
+    "ground_truth_source": "04 ViPNet Coordinator HW 5. Справочник.pdf",
+    "ground_truth_page": 30,
+    "ground_truth_context": "sh.domain.com: hostname# admin ssh reset-key host ssh.domain.com admin ssh reset-key local Перевыпустить ключи локального SSH-сервера ViPNet Coordinator HW. Синтаксис admin ssh reset-key local Режимы командного интерпретатора Режим настройки.",
+    "ground_truth_answer": ""
+  },
+  {
+    "id": 12,
+    "question": "Как выполнить сброс настроек до заводских?",
+    "keyword": "сброс",
+    "ground_truth_chunk_id": 409,
+    "ground_truth_source": "02 ViPNet Coordinator HW 5. Настройка в CLI.pdf",
+    "ground_truth_page": 99,
+    "ground_truth_context": "о интерпретатора, так и с помощью веб-интерфейса. Подсчет срабатываний фильтров Для каждого фильтра ведется постоянный подсчет срабатываний, начиная с момента первого включения ViPNet Coordinator HW до первого сброса срабатываний из ViPNet Prime вручную, и далее — между сбросами срабатываний из ViPNet Prime. Перезагрузка ViPNet Coordinator HW, обновление ПО или переключение узлов кластера не влияют на подсчет срабатываний. Просмотр срабатываний фильтров доступен только в веб-интерфейсе ViPNet Coordinator HW.",
+    "ground_truth_answer": ""
+  },
+  {
+    "id": 13,
+    "question": "Как настроить синхронизацию времени по NTP?",
+    "keyword": "NTP",
+    "ground_truth_chunk_id": 82,
+    "ground_truth_source": "01 ViPNet Coordinator HW 5. Подготовка к работе.pdf",
+    "ground_truth_page": 53,
+    "ground_truth_context": "связанных с ним. Возможно одновременное подключение к ViPNet Coordinator HW с нескольких узлов ViPNet с различными типами учетных записей; количество подключений не ограничено. В веб-интерфейсе доступна частичная настройка ViPNet Coordinator HW:  Настройка подключения ViPNet Coordinator HW к сети, настройка сетевых интерфейсов и параметров подключения к сетям 3G/4G, Wi-Fi.  Настройки сетевых фильтров и правил трансляции адресов.  Настройка подключения к домену AD и сервису аутентификации CP.  Настройка туннелирования адресов.  Настройка сетевых служб: встроенного DHCP-, DNS-, NTPи прокси-сервера, DHCP-relay.  Настройка L2OverIP.  Настройка предотвращения вторжений IPS; обновление базы правил IPS.  Настройка маршрутизации: статические маршруты, DHCP/PPP, OSPF, BGP.  Настройка MultiWAN.  Просмотр списка сетевых узлов ViPNet.  Настройка параметров удаленного мониторинга по протоколу SNMP.  Настройка даты и времени.",
+    "ground_truth_answer": ""
+  },
+  {
+    "id": 14,
+    "question": "Как настроить DNS-серверы на ViPNet Coordinator HW 5?",
+    "keyword": "DNS",
+    "ground_truth_chunk_id": 279,
+    "ground_truth_source": "02 ViPNet Coordinator HW 5. Настройка в CLI.pdf",
+    "ground_truth_page": 42,
+    "ground_truth_context": "При необходимости задайте дополнительные параметры для режима DHCP (см. Настройка получения параметров от DHCP-сервера). o Присвойте интерфейсу статический IP-адрес: hostname# inet ifconfig <имя виртуального интерфейса> address <IP-адрес> netmask <маска подсети> Если до выполнения этой команды интерфейс работал в режиме DHCP, данные о DNSи NTP-серверах, полученные по протоколу DHCP, будут потеряны. 6 Включите физический интерфейс, к которому подключен коммутатор: hostname# inet ifconfig <физический интерфейс> up",
+    "ground_truth_answer": ""
+  },
+  {
+    "id": 15,
+    "question": "Какие трансиверы совместимы с ViPNet Coordinator HW 5?",
+    "keyword": "трансивер",
+    "ground_truth_chunk_id": 19,
+    "ground_truth_source": "01 ViPNet Coordinator HW 5. Подготовка к работе.pdf",
+    "ground_truth_page": 7,
+    "ground_truth_context": "О документе Документ содержит общие сведения о многофункциональном шлюзе безопасности ViPNet Coordinator HW:  поддерживаемые функции;  описание исполнений;  условия лицензирования;  возможности управления. Также в документе приведены сценарии:  установки ViPNet Coordinator VA на платформы виртуализации;  установки дистрибутива ключей;  инициализации ViPNet Coordinator HW и ViPNet Coordinator VA. Документ предназначен для администраторов сетей ViPNet. Комплект документации ViPNet Coordinator HW:  Подготовка к работе.  Настройка с помощью командного интерпретатора.  Настройка с помощью веб-интерфейса.  Справочник команд и конфигурационных файлов.  Лицензионные соглашения на компоненты сторонних производителей.  История версий.  Перечень совместимых трансиверов.",
+    "ground_truth_answer": ""
+  },
+  {
+    "id": 16,
+    "question": "Как войти в режим командной строки (CLI)?",
+    "keyword": "CLI",
+    "ground_truth_chunk_id": 641,
+    "ground_truth_source": "02 ViPNet Coordinator HW 5. Настройка в CLI.pdf",
+    "ground_truth_page": 208,
+    "ground_truth_context": "Эта дистанция будет определять приоритет всех маршрутов DHCP-сервера, независимо от того, на какой сетевой интерфейс они поступили.  Задать административную дистанцию для маршрутов по умолчанию вместе с общей административной дистанцией для всех маршрутов DHCP-сервера: hostname# inet dhcp client route-distance <1-255> [default-route <1-255>], где default-route <1-255> — значение административной дистанции для маршрутов по умолчанию. Эта дистанция будет определять приоритет только маршрутов по умолчанию. Если дистанция не задана, то у маршрутов по умолчанию дистанция и приоритет будет таким же, как и у других маршрутов DHCP-сервера. При необходимости перед или после настройки административной дистанции вы можете посмотреть, на каких сетевых интерфейсах включен режим DHCP и какая административная дистанция задана. Подробнее см. раздел Просмотр настроек DHCP в режиме клиента. Настройка метрики для маршрутов DHCP-протокола Если на ViPNet Coordinator HW режим DHCP включен на нескольких сет",
+    "ground_truth_answer": ""
+  },
+  {
+    "id": 17,
+    "question": "Как получить доступ к веб-интерфейсу управления?",
+    "keyword": "WEB",
+    "ground_truth_chunk_id": 1839,
+    "ground_truth_source": "03 ViPNet Coordinator HW 5. Настройка в WEB.pdf",
+    "ground_truth_page": 324,
+    "ground_truth_context": "GitHub, Google Calendar, Google Docs, Microsoft Exchange, Microsoft Outlook, Microsoft SharePoint, My Digicel, Redmine Peer to Peer Приложения в группе: Aimini, ANtsP2P, AppleJuice, Ares, BitTorrent, DirectConnect, eDonkey, Filetopia, Freenet, Gnutella, iMesh, KaZaa/Fasttrack, Manolito, Mojo, Mute, OFF, OpenFT, Resilio Sync, Soulseek, Thunder/Webthunder",
+    "ground_truth_answer": ""
+  },
+  {
+    "id": 18,
+    "question": "Как узнать текущую версию прошивки устройства?",
+    "keyword": "версия",
+    "ground_truth_chunk_id": 169,
+    "ground_truth_source": "02 ViPNet Coordinator HW 5. Настройка в CLI.pdf",
+    "ground_truth_page": 1,
+    "ground_truth_context": "ViPNet Coordinator HW 5 Настройка с помощью командного интерпретатора Версия продукта: 5.3.2 ViPNet Coordinator HW50 ViPNet Coordinator HW2000 ViPNet Coordinator HW100 ViPNet Coordinator HW5000 ViPNet Coordinator HW1000 ViPNet Coordinator VA",
+    "ground_truth_answer": ""
+  },
+  {
+    "id": 19,
+    "question": "Как подключить ViPNet Coordinator HW 5 к сети?",
+    "keyword": "подключение",
+    "ground_truth_chunk_id": 1610,
+    "ground_truth_source": "03 ViPNet Coordinator HW 5. Настройка в WEB.pdf",
+    "ground_truth_page": 209,
+    "ground_truth_context": "Примечание. На время резервного копирования создается сетевой фильтр, разрешающий подключение к серверу ViPNet Prime и останавливаются службы vpn и mftp. По завершении копирования фильтр будет удален, а службы будут запущены заново. В автоматическом режиме копия индивидуальной конфигурации создается один раз в сутки в соответствии с расписанием. При этом на сервере ViPNet Prime хранится только последняя копия конфигурации — каждая последующая копия заменяет предыдущую. По умолчанию резервное копирование включено в автоматическом режиме и выполняется по расписанию в случайное время из интервала 21.00–23.00. Примечание. Расписание резервного копирования настраивается только на активном узле кластера. Чтобы настроить время резервного копирования индивидуальной конфигурации в автоматическом режиме: 1 Выберите Системные настройки > Сервисные функции > Резервное копирование. Рисунок 130. Настройка резервного копирования индивидуальной конфигурации 2 В разделе Резервное копирование в ViPNet P",
+    "ground_truth_answer": ""
+  }
+]
